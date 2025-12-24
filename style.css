@@ -1,0 +1,56 @@
+#divcompleta {
+    background: white;
+    width: 900px;
+    height: auto; /* Aqui a gente colocou 700px, mas assim ele ficaria assim pra sempre, e não mudaria conforme o texto. */
+}
+
+#titulos {
+    color: black;
+    background: gray;
+    height: 70px;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#divdebaixo p {
+    text-align: justify left;
+}
+
+#titulos a {
+    text-decoration: none;
+    color: rgb(39, 39, 134);
+}
+
+#sobre {
+    color: gray;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divdebaixo {
+    background: white;   
+}
+
+#cabecalho {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 900px;
+    text-align: center;
+}
+
+.img {
+    border-color: bisque;
+    border-width: 10px;
+    border-style: solid;
+}
+body {
+    background-image: url(imagens-projeto-anna-bella/fundo.png);
+
+    font-family: Arial, Helvetica, sans-serif;
+}

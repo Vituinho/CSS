@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+    <style>
+        
+        /*.fundo {
+            background-color: blue;
+        }*/
+
+        h1 {
+            /*background-image: url(imagens/yoshi.png);
+            /* repeat-x, repeat-y, no-repeat, repeat*/
+            
+            background-repeat: repeat-x;
+
+            /* scrool, fixed */
+            background-attachment: scroll;
+            /* primeiro valor: left center right segundo valor: top, center bottom */
+            background-position: center center;
+        }
+
+        .fundo {
+            background: blue url(imagens/yoshi.png) repeat-x scroll top;
+        }
+
+        .proximaAula {
+            font-weight: bold;
+            color: black;
+            margin: 300px;
+            display: flex;
+        }
+    </style>
+</head>
+<body class="fundo">
+    
+    <h1>Conteúdo de título 1</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, fuga. Deleniti temporibus eaque repudiandae, unde aliquid ab qui! Dignissimos officiis repellat corporis dolores illum sapiente alias nobis doloribus perspiciatis repudiandae?</p>
+
+    <a href="pagina1.html" class="proximaAula">Proxima aula</a>
+</body>
+</html>

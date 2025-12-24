@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fluido</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        #container {
+            width: 85%;
+            /*720px -> 85%*/
+            margin: 0 auto;
+            background: #FFF;
+            min-width: 720px;
+            max-width: 1280px;
+        }
+
+        #marca {
+            height: 200px;
+            background: #225992 url(imagens/cabecalho2.jpg) no-repeat center;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        #conteudo {
+            width: 75%;
+            /* 520px -> 74.28  */
+            float: right;
+        }
+
+        #conteudo-principal {
+            border: 1px solid red;
+            width: 63%;
+            /*320px -> 64%*/
+            float: left;
+        }
+
+        img.img-noticia {
+            border: 1px solid red;
+            width: 94%;
+            padding: 2%;
+            max-width: 600px;
+        }
+
+        #conteudo-secundario {
+            border: 1px solid red;
+            width: 34%;
+            /* 180px -> 36% */
+            float: right;
+            background: #d1d1d1;
+        }
+
+        #conteudo-secundario h1,
+        #conteudo-secundario h2,
+        #conteudo-secundario h3,
+        #conteudo-secundario p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #navegacao {
+            width: 23%;
+            /* 180px -> 25.71 */
+            float: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #d1d1d1;
+        }
+
+        #rodape {
+            clear: both;
+            background: #c4c4c4;
+            padding: 5px;
+        }
+
+        #navegacao ul {
+            list-style-type: none;
+        }
+
+        #navegacao li a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        #navegacao li a:hover {
+            color: white;
+            background: orange;
+        }
+
+        /*
+        #imagem {
+            width: 90%;
+            overflow: hidden;
+            border: 1px solid red;
+        }
+        */
+    </style>
+</head>
+
+<body>
+<a href="coluna-falsa.html">Proxima aula</a>
+    <div id="container">
+        <div id="marca">Marca</div>
+        <div id="conteudo">
+            <div id="conteudo-principal">
+                <h2>Conteúdo Principal</h2>
+                <img class="img-noticia" src="imagens/natureza.jpg" alt="">
+                <p>consectetur adipisicing elit. Officiis, aliquam? Necessitatibus praesentium eum consectetur, corrupti
+                    officia tenetur, libero minima id ratione in voluptatem repellendus. Corporis similique deserunt
+                    doloremque consectetur sed?</p>
+                <h2>Conteúdo Principal</h2>
+                <p>consectetur adipisicing elit. Officiis, aliquam? Necessitatibus praesentium eum consectetur, corrupti
+                    officia tenetur, libero minima id ratione in voluptatem repellendus. Corporis similique deserunt
+                    doloremque consectetur sed?</p>
+            </div>
+            <div id="conteudo-secundario">
+
+                <h2>Conteúdo Secundario</h2>
+                <p>consectetur adipisicing elit. Officiis, aliquam? Necessitatibus praesentium eum consectetur, corrupti
+                    officia tenetur, libero minima id ratione in voluptatem repellendus. Corporis similique deserunt
+                    doloremque consectetur sed?</p>
+            </div>
+        </div>
+        <div id="navegacao">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+        <div id="rodape">Rodapé</div>
+    </div>
+
+</body>
+
+</html>
